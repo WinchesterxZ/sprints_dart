@@ -9,7 +9,7 @@ void main() {
     "Eggs": 2.79,
     "Cheese": 4.99
   };
-  double totalPrice = 0;
+  double totalPrice = 0.0;
   groceryItems.forEach((name, price) {
     totalPrice += price;
   });
